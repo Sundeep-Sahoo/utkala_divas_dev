@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B A N D E____   U T K A L A______   J A N A N I</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">   
+    
+</head> 
+<header>
+    <img class="wheel" src="/img/line-art-konark-wheel-odisha-260nw-1726841476-fotor-bg-remover-2024033019154.ico">
+</header>
+<body>
+    
+	
+	<section class="box">  
+		<video src="/img/Odisha Tourism latest film on the beauty of Odisha..mp4" autoplay muted loop></video>
+		<h1>B A N D E <br> <br> U T K A L A  <br><br>J A N A N I</h1> 
+		<h3></h3>
+		<a href="#img" class="boxBtn">Click!!</a>   
+	</section>
+    <div class="img-container" id="img">
+        <div class="image image-div">
+            <img src="/img/n abut.jpeg" alt="">
+            <div class="form">
+                <h1>Happy Utkal Diwas</h1>
+                <form action="#preview-sc">
+                    <input type="text"   style="margin-top:40px; padding:20px 50px 20px 50px;border:1px solid black;border-radius:5px;" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <button onclick="takeData()" style="background-image: url(/img/Sambalpuri\ Wallpaper\ \(\ Black\).jpeg); background-repeat:repeat; background-position: center; background-size:cover; border-radius:10px; color:rgb(255, 255, 255); font-size:xx-large; font-weight:700;"><b> <a href="#preview-sc">Submit</a></b></button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</div>
+<section id = "preview-sc" class = "print_area">
+    <div class = "container">
+        <div class = "preview-cnt">
+            <div class = "preview-cnt-l bg-green text-white">
+                <div class = "preview-blk">
+                    <div class = "preview-image">
+                        <img src = "/img/jaga.jpg" alt = "" id = "image_dsp"> 
+                    </div>
+                    <div class = "preview-item preview-item-name">
+                        <span class = "preview-item-val fw-6" id = "fullname_dsp"></span>
+                    </div>
+                    <div class = "preview-item">
+                        <img src="/img/happy-utkal-divas-also-know-also-happy-odisha-day-memory-formation-state_560226-828.avif" alt="" width="200px" height="200px">
+                    </div>
+                    <h4 id="from">From~</h4>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<div class = "container" style="display:flex;justify-content:center;align-items:center;margin-top:-8rem;">
+    <button type = "button" style="background-image: url(/img/Sambalpuri\ Wallpaper\ \(\ Black\).jpeg); background-repeat:repeat; background-position: center; background-size:cover; border-radius:10px; color:rgb(255, 255, 255); font-size:xx-large; font-weight:700;padding:3px 8px 3px 8px;" id="btn"  onclick="printCV()">Download Poster</button>
+</div>
+<section class = "print-btn-sc">
+    
+</section>
+<script>
+    function printCV() {
+        window.print();
+    }
+    function takeData(){
+        var name = document.getElementById("name").value;
+        document.getElementById("from").innerHTML="From~"+"<br />"+name;
+    }
+</script>
+</body>
+</html>
